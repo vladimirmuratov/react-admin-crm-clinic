@@ -11,7 +11,7 @@ export const DoctorList = () => {
                     <SimpleList
                         primaryText={(record) => record.name}
                         secondaryText={(record) => record.phone1}
-                        tertiaryText={(record) => record.phone2}
+                        // tertiaryText={(record) => record.phone2}
                         linkType="show"
                     />
                 )
