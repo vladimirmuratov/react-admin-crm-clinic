@@ -4,10 +4,10 @@ import {BaseTitle} from '@/admin/base/BaseTitle'
 export const PatientEdit = () => (
     <Edit title={<BaseTitle/>}>
         <SimpleForm>
-            <TextInput source="id" disabled />
+            {/*<TextInput source="id" disabled />*/}
             <TextInput source="name" label="Ф.И.О"/>
             <NumberInput source="amount" label="Сумма оплаты"/>
-            <DateTimeInput source="dateAmount" label="Дата отлаты"/>
+            <DateTimeInput source="dateAmount" label="Дата оплаты"/>
             <DateTimeInput source="dateNextVisit" label="Дата след.визита"/>
             <DateTimeInput source="dateOfBirth" label="Дата рождения"/>
             <TextInput source="email" label="Email"/>

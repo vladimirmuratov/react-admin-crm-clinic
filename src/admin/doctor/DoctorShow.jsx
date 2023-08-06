@@ -4,7 +4,7 @@ import {BaseTitle} from '@/admin/base/BaseTitle'
 export const DoctorShow = () => (
     <Show title={<BaseTitle/>}>
         <SimpleShowLayout>
-            <TextField source="id"/>
+            {/*<TextField source="id"/>*/}
             <TextField source="name" label="Ф.И.О"/>
             <TextField source="specialization" label="Специализация"/>
             <TextField source="phone1" label="Телефон 1"/>

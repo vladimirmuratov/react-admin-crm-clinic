@@ -4,7 +4,7 @@ import {BaseTitle} from '@/admin/base/BaseTitle'
 export const DoctorEdit = () => (
     <Edit title={<BaseTitle/>}>
         <SimpleForm>
-            <TextInput source="id" disabled/>
+            {/*<TextInput source="id" disabled/>*/}
             <TextInput source="name" label="Ф.И.О" />
             <TextInput source="specialization" label="Специализация"/>
             <TextInput source="phone1" label="Телефон 1"/>
