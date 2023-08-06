@@ -17,19 +17,20 @@ model Admin {
 }
 
 model Patient {
-  id            Int          @id @default(autoincrement())
-  name          String
-  amount        Int?
-  dateAmount    DateTime?
-  dateOfBirth   DateTime?
-  email         String?
-  phone         String?
-  address       String?
-  auto          String?
-  passport      String?
-  oms           String?
-  contract      String?
-  info          String?
+  id                Int          @id @default(autoincrement())
+  name              String
+  amount            Int?
+  dateAmount        DateTime?
+  dateNextVisit     DateTime?
+  dateOfBirth       DateTime?
+  email             String?
+  phone             String?
+  address           String?
+  auto              String?
+  passport          String?
+  oms               String?
+  contract          String?
+  info              String?
 
 }
 

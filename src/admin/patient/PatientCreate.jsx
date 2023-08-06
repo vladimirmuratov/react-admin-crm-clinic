@@ -5,7 +5,8 @@ export const PatientCreate = () => (
         <SimpleForm>
             <TextInput source="name" label="Ф.И.О"/>
             <NumberInput source="amount" label="Сумма оплаты"/>
-            <DateTimeInput source="dateAmount" label="Дата отлаты"/>
+            <DateTimeInput source="dateAmount" label="Дата оплаты"/>
+            <DateTimeInput source="dateNextVisit" label="Дата след.визита"/>
             <DateTimeInput source="dateOfBirth" label="Дата рождения"/>
             <TextInput source="email" label="Email"/>
             <TextInput source="phone" label="Телефон"/>
